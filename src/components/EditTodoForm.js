@@ -8,7 +8,7 @@ export const EditTodoForm = ({editTodo, task}) => {
         e.preventDefault();
 
         editTodo(value, task.id);
-
+        console.log("harshit");
         setValue("")
 
     }
